@@ -1,6 +1,7 @@
 
 /*------------------------------------------------------------------
 [Table of contents]
+0. Alice one fonts
 1. Global CSS
     1.1 Tipper CSS
 2. Menu CSS
@@ -16,7 +17,7 @@
 
 /* ----------------------------------
     Import other CSS files we need:
-------------------------------------- */
+   ---------------------------------- */
 
 @import url("css/clear.css");
 @import url("css/font-awesome.min.css");
@@ -26,7 +27,7 @@
 @import url("css/common.css");
 
 /* ===================================
-    0. Import Leap With Alice Fonts
+     0. Import Leap With Alice Fonts
 ====================================== */
 
 @font-face {
@@ -128,14 +129,14 @@ body p {
 .header-logo {
     position: absolute;
     top: 35px;
-    left: 0;
+    left: 10px;
 }
 
 .header-logo img {
     max-width: none;
     max-height: none;
-    width: 100px;
-    height: 70px;
+    width: auto;
+    height: 103px;
 }
 
 .site-content {
@@ -1856,3 +1857,7 @@ li.coco-gallery-item.b-w img {
     }
 
 }
+
+/* ===================================
+    10. Animations & Customs
+====================================== */
