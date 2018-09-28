@@ -842,9 +842,9 @@ p.menu-text-title {
 .horizontal-slider .carousel-item-image:hover .carousel-item-info,
 .horizontal-slider .carousel-item-image:hover a.img-thumb:after,
 .horizontal-slider .carousel-item-image:hover .carousel-item-image-shadow:after {
-    opacity: 1;
+    /*opacity: 1;
     transform: translateY(0px);
-    visibility: visible;
+    visibility: hidden;*/
 }
 
 .horizontal-slider .carousel-item-image a.img-thumb:after,
@@ -1856,8 +1856,89 @@ li.coco-gallery-item.b-w img {
         margin-bottom: 5px;
     }
 
+    #parrotModel{
+      top: 95px;
+      left: 75px !important;
+      height: 25vh !important;
+      width: auto;
+      position: absolute;
+    }
+
 }
 
 /* ===================================
     10. Animations & Customs
 ====================================== */
+
+/* -----------------------------------
+    Parrot & animations:
+-------------------------------------- */
+
+#parrotModel{
+  top: 95px;
+  left: 67px;
+  height: 40vh;
+  width: auto;
+  position: absolute;
+}
+
+/* Animations */
+@-webkit-keyframes bird-fly{
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes bird-fly {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+.flying-parrot {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-animation-name: bird-fly;
+  animation-name: bird-fly;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+
+/* -----------------------------------
+    Phone Model Stylings
+-------------------------------------- */
+
+#phoneAngled{
+  position: relative;
+  overflow: none;
+}
