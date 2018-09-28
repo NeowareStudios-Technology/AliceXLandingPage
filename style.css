@@ -1870,16 +1870,26 @@ li.coco-gallery-item.b-w img {
     10. Animations & Customs
 ====================================== */
 
+
 /* -----------------------------------
-    Parrot & animations:
+    Parrot Container & Parrot Model
 -------------------------------------- */
 
-#parrotModel{
+#parrotContainer{
+  overflow: hidden;
+  position: absolute;
+  border: 2px solid red !important;
   top: 95px;
+  padding-top: 20px;
   left: 67px;
+  height: 45vh;
+  width: 350px;
+}
+
+#parrotModel{
+  margin-left: -120px;
   height: 40vh;
   width: auto;
-  position: absolute;
 }
 
 /* Animations */
@@ -1897,6 +1907,7 @@ li.coco-gallery-item.b-w img {
     transform: translateY(-8px);
   }
 }
+
 @keyframes bird-fly {
   0% {
     -webkit-transform: translateY(-8px);
@@ -1940,5 +1951,4 @@ li.coco-gallery-item.b-w img {
 
 #phoneAngled{
   position: relative;
-  overflow: none;
 }
