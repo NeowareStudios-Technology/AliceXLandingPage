@@ -1864,6 +1864,17 @@ li.coco-gallery-item.b-w img {
       position: absolute;
     }
 
+    #parrotContainer{
+      overflow: hidden;
+      position: absolute;
+      border: 2px solid red !important;
+      top: 95px;
+      padding-top: 20px;
+      left: 20.5vw !important;
+      height: 45vh;
+      width: 70vw;
+    }
+
 }
 
 /* ===================================
@@ -1881,12 +1892,13 @@ li.coco-gallery-item.b-w img {
   border: 2px solid red !important;
   top: 95px;
   padding-top: 20px;
-  left: 67px;
+  left: 6.3vw;
   height: 45vh;
-  width: 350px;
+  width: 20vw;
 }
 
 #parrotModel{
+  position: relative;
   margin-left: -120px;
   height: 40vh;
   width: auto;
@@ -1950,5 +1962,8 @@ li.coco-gallery-item.b-w img {
 -------------------------------------- */
 
 #phoneAngled{
+  position: relative;
+}
+.relative-pos{
   position: relative;
 }
