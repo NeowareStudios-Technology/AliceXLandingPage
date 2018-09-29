@@ -1912,6 +1912,7 @@ h1.text-bold{
 /* -----------------------------------
     Parrot Animations:
 -------------------------------------- */
+
 @-webkit-keyframes bird-fly{
   0% {
     -webkit-transform: translateY(-12px);
@@ -1973,4 +1974,106 @@ h1.text-bold{
 }
 .relative-pos{
   position: relative;
+}
+
+/* -----------------------------------
+    Target Image Stylings
+-------------------------------------- */
+
+.targetImage{
+  position: absolute !important;
+  opacity: 0.6;
+  height: 60vh !important;
+  width: auto;
+  right: 0px;
+  top: 30px;
+  z-index: -1;
+}
+
+.scanImage{
+  right: 45px;
+}
+
+/* -----------------------------------
+    Yellow Scan Image
+-------------------------------------- */
+
+.yellowScan{
+  z-index: 2;
+  height: 35vh !important;
+  right: 11vw;
+  top: 15vh;
+}
+
+/* -----------------------------------
+    Yellow Scan Animation
+-------------------------------------- */
+
+.scan {
+    width: 140px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: scan; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-name: scan;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes scan {
+    0%   {height: 0px; width: 150px;}
+    50%  {height: 150px; width: 140px; background: red;}
+    100% {height: 150px; width:140px; background: gold;}
+}
+
+/* Standard syntax */
+@keyframes scan {
+    0%   {height: 0px; width: 140px;}
+    50%  {height: 150px; width: 140px; background: red;}
+    100% {height: 150px; width:140px; background: gold;}
+}
+
+/* -----------------------------------
+    Earth A/R Image
+-------------------------------------- */
+
+.earthImage{
+opacity: 1;
+position: absolute;
+height: 50vh !important;
+top: 10vh;
+left: 7vw;
+}
+
+.earthAnimation {
+    width: 140px;
+    height: 150px;
+    -webkit-animation-name: scan; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes grow {
+    0%   {height: 0px; width: 140px;}
+    50%  {height: 150px; width: 140px;}
+    100% {height: 150px; width:140px;}
+}
+
+/* Standard syntax */
+@keyframes grow {
+    0%   {top: 9vh; height: 0px; width: 0px;}
+    50%  {top: 10vh; height: 150px; width: 140px;}
+    75% {top: 9vh;}
+    100% {top: 10vh; height: 150px; width:140px;}
 }
