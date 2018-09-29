@@ -1240,6 +1240,10 @@ li.coco-gallery-item.b-w img {
     max-width: 100%;
 }
 
+h1.text-bold{
+  font-family: Atlan-Bold;
+}
+
 .single-post .entry-info div:last-of-type:after {
     display: none;
 }
@@ -1857,22 +1861,22 @@ li.coco-gallery-item.b-w img {
     }
 
     #parrotModel{
-      top: 95px;
-      left: 75px !important;
-      height: 25vh !important;
-      width: auto;
       position: absolute;
+      top: 55px;
+      left: 35px !important;
+      height: 50vh !important;
+      width: 100vw !important;
     }
 
     #parrotContainer{
       overflow: hidden;
       position: absolute;
-      border: 2px solid red !important;
-      top: 95px;
+      /* border: 2px solid red !important; */
+      top: 15px !important;
       padding-top: 20px;
       left: 20.5vw !important;
-      height: 45vh;
-      width: 70vw;
+      height: 50vh !important;
+      width: 80vw !important;
     }
 
 }
@@ -1889,11 +1893,12 @@ li.coco-gallery-item.b-w img {
 #parrotContainer{
   overflow: hidden;
   position: absolute;
-  border: 2px solid red !important;
+  /* border: 2px solid red !important; */
   top: 95px;
   padding-top: 20px;
   left: 6.3vw;
-  height: 45vh;
+  height: 50vh;
+  padding-bottom: 50px;
   width: 20vw;
 }
 
