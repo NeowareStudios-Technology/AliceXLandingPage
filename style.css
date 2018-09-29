@@ -1904,7 +1904,9 @@ li.coco-gallery-item.b-w img {
   width: auto;
 }
 
-/* Animations */
+/* -----------------------------------
+    Parrot Animations:
+-------------------------------------- */
 @-webkit-keyframes bird-fly{
   0% {
     -webkit-transform: translateY(-8px);
