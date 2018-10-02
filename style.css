@@ -1883,6 +1883,7 @@ h1.text-bold{
 
     .howToCreate > div > h1 {
       font-size: 10vh !important;
+      color: gold;
       line-height: 10vh !important;
     }
 
@@ -2219,9 +2220,9 @@ h1.text-bold{
   height: 98vh !important;
   min-width: 100%;
   min-height: 100%;
-  background-color: gold;
+  background: src('./assets/BackgroundVideo.mp4') center center no-repeat;
+  background-size: cover;
   font-family: 'Atlan-Bold';
-  color: #fff;
   margin: 0 auto;
 }
 
@@ -2232,14 +2233,14 @@ h1.text-bold{
   vertical-align: middle;
   line-height: 98vh;
   padding: 0 auto;
-  border: 1px solid #fff;
+  border: 1px solid transparent;
   height: 98vh;
 }
 
 .howToCreate > div > h1 {
   font-size: 10vh;
   margin-top: 33vh;
-  color: #fff;
+  color: gold;
 }
 
 .howToCreate > div > h1 > .subHeading {
@@ -2289,4 +2290,12 @@ h1.text-bold{
 
 .carousel-item-image > p {
   text-align: center;
+}
+
+.bgvideo{
+  z-index: -1;
+  position: absolute;
+  margin-left: -10vw;
+  width: 90vw !important;
+  height: 90vh !important;
 }
