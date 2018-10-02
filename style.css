@@ -1488,6 +1488,46 @@ h1.text-bold{
         line-height: 120%;
     }
 
+    .bgvideo{
+      left: 10vw !important;
+    }
+
+    #phoneStraightFindTarget{
+      background-size: 50vh !important;
+    }
+
+    #phoneStraightScanTarget{
+      background-size: 25vh, 50vh !important;
+
+    }
+
+    #phoneStraightAddExperience{
+      background-size: 18vh, 40vh !important;
+      background-position: 40% 45%, 10% 50% !important;
+      margin-left: 18vw !important;
+    }
+
+    .howToCreate > div > h1 {
+      line-height: 10vh !important;
+    }
+
+    .itsThatEasy > div > h1 {
+      line-height: 10vh !important;
+    }
+    #parrotModel{
+      position: absolute !important;
+      height: 70vh !important;
+      max-height: 70vh !important;
+      left: 20vw !important;
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+
+    #parrotContainer{
+      width: 90% !important;
+      max-width: 100% !important;
+      max-height: 70% !important;
+    }
 }
 
 
@@ -1770,23 +1810,40 @@ h1.text-bold{
         margin: 0 auto;
     }
 
-    /*TODO: Custom styling for find/scan/ add*/
+
     #phoneStraightFindTarget{
-      background-size: 50vh !important;
+      background-size: 40vh;
     }
 
     #phoneStraightScanTarget{
-      background-size: 30vh, 60vh !important;
-      margin-left: 20vw !important;
+      background-size: 20vh, 40vh;
+      background-position: 40% 45%, 20% 50% ;
+      margin-left: 16vw ;
     }
 
     #phoneStraightAddExperience{
-      background-size: 30vh, 60vh !important;
-      margin-left: 20vw !important;
+      margin-left: 16vw ;
+      background-position: 10% 45%, 10% 50%;
     }
+
+    #parrotModel{
+      position: absolute ;
+      height: 80vh ;
+      left: 20vw ;
+      width: 100% ;
+    }
+
+    #parrotContainer{
+      max-width: 90% ;
+      max-height: 70% ;
+    }
+
+
 }
 
-
+/*
+  Mobile Stlyes
+*/
 @media screen and (max-width: 650px)
 {
 
@@ -1882,7 +1939,7 @@ h1.text-bold{
     }
 
     .howToCreate > div > h1 {
-      font-size: 10vh !important;
+      font-size: 8vh !important;
       color: gold;
       line-height: 10vh !important;
     }
@@ -1904,9 +1961,10 @@ h1.text-bold{
       position: absolute;
       overflow: visible;
       top: 55px;
-      left: 35px !important;
-      height: 50vh !important;
+      left: 20vw !important;
+      height: 70vh !important;
       width: 100vw !important;
+      max-width: 100% !important;
     }
 
     #parrotContainer{
@@ -1917,7 +1975,7 @@ h1.text-bold{
       padding-top: 20px;
       left: 20.5vw !important;
       height: 50vh !important;
-      width: 98vw !important;
+      width: 120vw !important;
     }
 
     #phoneStraightFindTarget{
@@ -1951,6 +2009,19 @@ h1.text-bold{
       background-position: 45% 50%, 30% 60% !important;
     }
 
+    .bgvideo{
+      margin-left: 0 !important;
+      margin-right: 20vw !important;
+      position: absolute;
+      left: 1vw !important;
+      height: 98vh !important;
+    }
+
+    .bgvideo > source {
+      height: 90vh !important;
+    }
+
+
 }
 
 /* ===================================
@@ -1977,7 +2048,7 @@ h1.text-bold{
   position: relative;
   margin-left: -120px;
   height: 40vh;
-  width: auto;
+  width: 80vw !important;
 }
 
 /* -----------------------------------
@@ -2105,7 +2176,6 @@ h1.text-bold{
       45% 45%,
       30% 50%;
     }
-
 
 
 }
@@ -2274,7 +2344,7 @@ h1.text-bold{
 }
 
 .itsThatEasy > div > h1 {
-  font-size: 50px;
+  font-size: 10vh;
   margin-top: 33vh;
   color: #fff;
 }
@@ -2296,6 +2366,7 @@ h1.text-bold{
   z-index: -1;
   position: absolute;
   margin-left: -10vw;
-  width: 90vw !important;
-  height: 90vh !important;
+  width: 90vw;
+  max-width: 90vw;
+  height: 90vh;
 }
