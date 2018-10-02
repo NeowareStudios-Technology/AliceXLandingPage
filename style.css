@@ -2108,17 +2108,17 @@ h1.text-bold{
   vertical-align: middle;
   line-height: 98vh;
   padding: 0 auto;
-  border: 1px solid red;
+  border: 1px solid #fff;
   height: 98vh;
 }
 
 .howToCreate > div > h1 {
   font-size: 50px;
   margin-top: 33vh;
-  border: 1px solid green;
+
   color: #fff;
 }
 
-.howToCreate > div > h1 > .sideNote {
+.howToCreate > div > h1 > .subHeading {
   font-size: 30px;
 }
