@@ -1860,6 +1860,25 @@ h1.text-bold{
         margin-bottom: 5px;
     }
 
+    .howToCreate{
+      width: 100% !important;
+      height: 100% !important;
+      margin: 0 auto !important;
+    }
+
+    .aliceOneLogo{
+      height: 70% !important;
+      width: 70% !important;
+      margin: 0 auto !important;
+
+    }
+
+    .itsThatEasy{
+      width: 100% !important;
+      height: 100% !important;
+      margin: 0 auto !important;
+    }
+
     #parrotModel{
       position: absolute;
       top: 55px;
@@ -1895,10 +1914,9 @@ h1.text-bold{
       background:
       url('./assets/images/PNGs/yellowScan.png') no-repeat,
       url('./assets/images/PNGs/abstractPainting.png') no-repeat;
-      background-size: 15vh, 25vh !important;
-      background-position: 40% 45%, 25% 50% !important;
+      background-size: 15vh, 30vh !important;
+      background-position: 35% 48%, 30% 50% !important;
     }
-
 
     #phoneStraightAddExperience{
       width: 95vw !important;
@@ -1908,7 +1926,7 @@ h1.text-bold{
       url('./assets/images/Earth.png') no-repeat,
       url('./assets/images/PNGs/abstractPainting.png') no-repeat;
       background-size: 15vh, 25vh !important;
-      background-position: 45% 50%, 30% 50% !important;
+      background-position: 45% 50%, 30% 60% !important;
     }
 
 }
@@ -1925,7 +1943,6 @@ h1.text-bold{
 #parrotContainer{
   overflow: hidden;
   position: absolute;
-  /* border: 2px solid red !important; */
   top: 95px;
   padding-top: 20px;
   left: 6.3vw;
@@ -2004,15 +2021,16 @@ h1.text-bold{
     Phone Model Stylings
 -------------------------------------- */
 
-#phoneAngled{
-  position: relative;
-}
 
 .relative-pos{
   position: relative;
 }
 
 .phoneStraight {
+}
+
+#phoneAngled{
+  position: relative;
 }
 
 #phoneStraightFindTarget{
@@ -2036,17 +2054,35 @@ h1.text-bold{
   background:
   url('./assets/images/Earth.png') no-repeat,
   url('./assets/images/PNGs/abstractPainting.png') no-repeat;
-  background-size: 20vh, 30vh;
-  background-position: 45% 50%, 30% 50%;
+  background-size: 20vh, 50vh;
+  min-background-size: 20vh, 50vh;
+  background-position: 45% 50%, 30% 60%;
   -webkit-animation: earth-float 2s infinite; /* Safari 4.0 - 8.0 */
   animation: earth-float 2s infinite;
-  transition-timing-function: ease-in;
+  transition-timing-function: ease-in-out;
 }
 
+/* -----------------------------------
+    Earth & Painting
+    Animations / Positioning
+-------------------------------------- */
+
 @keyframes earth-float {
-	0% {background-position:  40% 50%, 45% 50%;}
-    50% {background-position: 40% 55%, 45% 50%;}
-    100% {background-position: 40% 50%, 45% 50%;}
+	  0% {
+      background-position:
+      45% 45%,
+      30% 50%;
+    }
+    50% {
+      background-position:
+      45% 50%,
+      30% 50%;
+    }
+    100% {
+      background-position:
+      45% 45%,
+      30% 50%;
+    }
 }
 /* -----------------------------------
     Target Image Stylings
@@ -2164,7 +2200,6 @@ h1.text-bold{
   color: #fff;
   margin: 0 auto;
   margin-right: -100px;
-
 }
 
 .howToCreate > div {
@@ -2181,10 +2216,42 @@ h1.text-bold{
 .howToCreate > div > h1 {
   font-size: 50px;
   margin-top: 33vh;
-
   color: #fff;
 }
 
 .howToCreate > div > h1 > .subHeading {
   font-size: 30px;
+}
+
+
+/* -----------------------------------
+    It's that Easy Section
+-------------------------------------- */
+.itsThatEasy{
+  width: 70vw !important;
+  height: 98vh !important;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: black;
+  font-family: 'Atlan-Bold';
+  color: #fff;
+  margin: 0 auto;
+  margin-right: -100px;
+}
+
+.itsThatEasy > div {
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  line-height: 98vh;
+  padding: 0 auto;
+  border: 1px solid #fff;
+  height: 98vh;
+}
+
+.itsThatEasy > div > h1 {
+  font-size: 50px;
+  margin-top: 33vh;
+  color: #fff;
 }
