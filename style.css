@@ -1879,6 +1879,38 @@ h1.text-bold{
       width: 80vw !important;
     }
 
+    #phoneStraightFindTarget{
+      width: 90vw !important;
+      height: auto;
+      background:
+      url('./assets/images/PNGs/abstractPainting.png') no-repeat;
+      background-size: 30vh !important;
+      background-position: 45% 50%
+    }
+
+    #phoneStraightScanTarget{
+      width: 95vw !important;
+      height: auto !important;
+      margin-left: 7vw;
+      background:
+      url('./assets/images/PNGs/yellowScan.png') no-repeat,
+      url('./assets/images/PNGs/abstractPainting.png') no-repeat;
+      background-size: 15vh, 25vh !important;
+      background-position: 40% 45%, 25% 50% !important;
+    }
+
+
+    #phoneStraightAddExperience{
+      width: 95vw !important;
+      height: auto !important;
+      margin-left: 7vw;
+      background:
+      url('./assets/images/Earth.png') no-repeat,
+      url('./assets/images/PNGs/abstractPainting.png') no-repeat;
+      background-size: 15vh, 25vh !important;
+      background-position: 45% 50%, 30% 50% !important;
+    }
+
 }
 
 /* ===================================
@@ -1986,7 +2018,7 @@ h1.text-bold{
 #phoneStraightFindTarget{
   background:
   url('./assets/images/PNGs/abstractPainting.png') no-repeat;
-  background-size: 300px;
+  background-size: 50vh;
   background-position: 45% 50%
 }
 
@@ -1994,7 +2026,7 @@ h1.text-bold{
   background:
   url('./assets/images/PNGs/yellowScan.png') no-repeat,
   url('./assets/images/PNGs/abstractPainting.png') no-repeat;
-  background-size: 150px, 300px;
+  background-size: 30vh, 50vh;
   background-position: 40% 45%, 30% 50%;
   overflow: hidden;
 }
@@ -2004,7 +2036,7 @@ h1.text-bold{
   background:
   url('./assets/images/Earth.png') no-repeat,
   url('./assets/images/PNGs/abstractPainting.png') no-repeat;
-  background-size: 150px, 300px;
+  background-size: 20vh, 30vh;
   background-position: 45% 50%, 30% 50%;
 }
 
