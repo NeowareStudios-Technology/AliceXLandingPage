@@ -1866,6 +1866,12 @@ h1.text-bold{
       margin: 0 auto !important;
     }
 
+    .itsThatEasy{
+      width: 100% !important;
+      height: 100% !important;
+      margin: 0 auto !important;
+    }
+
     .aliceOneLogo{
       height: 70% !important;
       width: 70% !important;
@@ -1873,14 +1879,9 @@ h1.text-bold{
 
     }
 
-    .itsThatEasy{
-      width: 100% !important;
-      height: 100% !important;
-      margin: 0 auto !important;
-    }
-
     #parrotModel{
       position: absolute;
+      overflow: visible;
       top: 55px;
       left: 35px !important;
       height: 50vh !important;
@@ -1888,14 +1889,14 @@ h1.text-bold{
     }
 
     #parrotContainer{
-      overflow: hidden;
+      overflow: visible;
       position: absolute;
       /* border: 2px solid red !important; */
       top: 15px !important;
       padding-top: 20px;
       left: 20.5vw !important;
       height: 50vh !important;
-      width: 80vw !important;
+      width: 98vw !important;
     }
 
     #phoneStraightFindTarget{
@@ -1915,7 +1916,7 @@ h1.text-bold{
       url('./assets/images/PNGs/yellowScan.png') no-repeat,
       url('./assets/images/PNGs/abstractPainting.png') no-repeat;
       background-size: 15vh, 30vh !important;
-      background-position: 35% 48%, 30% 50% !important;
+      background-position: 38% 45%, 30% 50% !important;
     }
 
     #phoneStraightAddExperience{
@@ -1937,11 +1938,11 @@ h1.text-bold{
 
 
 /* -----------------------------------
-    Parrot Container & Parrot Model
+    Desk Parrot Container & Parrot Model
 -------------------------------------- */
 
 #parrotContainer{
-  overflow: hidden;
+  overflow: visible;
   position: absolute;
   top: 95px;
   padding-top: 20px;
@@ -2059,7 +2060,7 @@ h1.text-bold{
   background-position: 45% 50%, 30% 60%;
   -webkit-animation: earth-float 2s infinite; /* Safari 4.0 - 8.0 */
   animation: earth-float 2s infinite;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: linear;
 }
 
 /* -----------------------------------
@@ -2083,6 +2084,9 @@ h1.text-bold{
       45% 45%,
       30% 50%;
     }
+
+
+
 }
 /* -----------------------------------
     Target Image Stylings
@@ -2199,7 +2203,6 @@ h1.text-bold{
   font-family: 'Atlan-Bold';
   color: #fff;
   margin: 0 auto;
-  margin-right: -100px;
 }
 
 .howToCreate > div {
@@ -2214,13 +2217,13 @@ h1.text-bold{
 }
 
 .howToCreate > div > h1 {
-  font-size: 50px;
+  font-size: 10vh;
   margin-top: 33vh;
   color: #fff;
 }
 
 .howToCreate > div > h1 > .subHeading {
-  font-size: 30px;
+  font-size: 5vh;
 }
 
 
@@ -2236,7 +2239,6 @@ h1.text-bold{
   font-family: 'Atlan-Bold';
   color: #fff;
   margin: 0 auto;
-  margin-right: -100px;
 }
 
 .itsThatEasy > div {
@@ -2254,4 +2256,17 @@ h1.text-bold{
   font-size: 50px;
   margin-top: 33vh;
   color: #fff;
+}
+
+.aliceOneLogo {
+  height: 50vh !important;
+  width: auto !important;
+}
+
+.carousel-item-image > h1{
+  text-align: center;
+}
+
+.carousel-item-image > p {
+  text-align: center;
 }
