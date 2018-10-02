@@ -1951,10 +1951,9 @@ h1.text-bold{
     }
 
     .aliceOneLogo{
-      height: 70% !important;
-      width: 70% !important;
+      height: 60% !important;
+      width: 60% !important;
       margin: 0 auto !important;
-
     }
 
     #parrotModel{
@@ -1963,8 +1962,8 @@ h1.text-bold{
       top: 55px;
       left: 20vw !important;
       height: 70vh !important;
-      width: 100vw !important;
-      max-width: 100% !important;
+      width: 98% !important;
+      max-width: 980% !important;
     }
 
     #parrotContainer{
@@ -1975,7 +1974,7 @@ h1.text-bold{
       padding-top: 20px;
       left: 20.5vw !important;
       height: 50vh !important;
-      width: 120vw !important;
+      width: 100vw !important;
     }
 
     #phoneStraightFindTarget{
@@ -1984,7 +1983,7 @@ h1.text-bold{
       background:
       url('./assets/images/PNGs/abstractPainting.png') no-repeat;
       background-size: 30vh !important;
-      background-position: 45% 50%
+      background-position: 45% 50%;
     }
 
     #phoneStraightScanTarget{
@@ -1994,8 +1993,8 @@ h1.text-bold{
       background:
       url('./assets/images/PNGs/yellowScan.png') no-repeat,
       url('./assets/images/PNGs/abstractPainting.png') no-repeat;
-      background-size: 20vh, 35vh !important;
-      background-position: 42% 45%, 35% 50% !important;
+      background-size: 17vh, 30vh !important;
+      background-position: 41% 45%, 25% 50% !important;
     }
 
     #phoneStraightAddExperience{
