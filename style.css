@@ -1975,8 +1975,37 @@ h1.text-bold{
 #phoneAngled{
   position: relative;
 }
+
 .relative-pos{
   position: relative;
+}
+
+.phoneStraight {
+}
+
+#phoneStraightFindTarget{
+  background:
+  url('./assets/images/PNGs/abstractPainting.png') no-repeat;
+  background-size: 300px;
+  background-position: 45% 50%
+}
+
+#phoneStraightScanTarget{
+  background:
+  url('./assets/images/PNGs/yellowScan.png') no-repeat,
+  url('./assets/images/PNGs/abstractPainting.png') no-repeat;
+  background-size: 150px, 300px;
+  background-position: 40% 45%, 30% 50%;
+  overflow: hidden;
+}
+
+
+#phoneStraightAddExperience{
+  background:
+  url('./assets/images/Earth.png') no-repeat,
+  url('./assets/images/PNGs/abstractPainting.png') no-repeat;
+  background-size: 150px, 300px;
+  background-position: 45% 50%, 30% 50%;
 }
 
 /* -----------------------------------
@@ -1984,25 +2013,22 @@ h1.text-bold{
 -------------------------------------- */
 
 .targetImage{
-  position: absolute !important;
+  z-index: 0;
   opacity: 0.6;
   height: 60vh !important;
   width: auto;
   right: 0px;
   top: 30px;
-  z-index: -1;
-}
-
-.scanImage{
   right: 45px;
 }
+
 
 /* -----------------------------------
     Yellow Scan Image
 -------------------------------------- */
 
 .yellowScan{
-  z-index: 2;
+  z-index: 1;
   height: 35vh !important;
   right: 11vw;
   top: 15vh;
@@ -2012,11 +2038,11 @@ h1.text-bold{
     Yellow Scan Animation
 -------------------------------------- */
 
-.scan {
+[animation = "scan"]{
     width: 5vw;
     height: 150px;
     background-color: red;
-    position: relative;
+    opacity: 0.6;
     -webkit-animation-name: scan; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: infinite;
