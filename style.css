@@ -1518,6 +1518,7 @@ h1.text-bold{
 
     #parrotModel{
       width: 50vw !important;
+      height: 50vw !important;
     }
 }
 
@@ -1821,7 +1822,7 @@ h1.text-bold{
       position: absolute ;
       height: 80vh ;
       left: 20vw ;
-      width: 80vw !important;
+      width: auto !important;
     }
 
     #parrotContainer{
@@ -1960,8 +1961,8 @@ h1.text-bold{
       overflow: visible;
       top: 55px;
       left: 20vw !important;
-      height: 70vh !important;
-      width: 80vw !important;
+      height: auto !important;
+      width: auto !important;
       max-width: 80vw !important;
     }
 
@@ -2045,8 +2046,8 @@ h1.text-bold{
 #parrotModel{
   position: relative;
   margin-left: -120px;
-  height: 40vh;
-  width: 30vw !important;
+  height: auto !important;
+  width: 30vw;
 }
 
 /* -----------------------------------
@@ -2127,7 +2128,7 @@ h1.text-bold{
 #phoneStraightFindTarget{
   background:
   url('./assets/images/PNGs/abstractPainting.png') no-repeat;
-  background-size: 50vh;
+  background-size: 65vh;
   background-position: 45% 50%
 }
 
@@ -2135,8 +2136,8 @@ h1.text-bold{
   background:
   url('./assets/images/PNGs/yellowScan.png') no-repeat,
   url('./assets/images/PNGs/abstractPainting.png') no-repeat;
-  background-size: 30vh, 50vh;
-  background-position: 40% 45%, 30% 50%;
+  background-size: 31vh, 65vh;
+  background-position: 38% 43%, 10% 50%;
   overflow: hidden;
 }
 
@@ -2184,7 +2185,7 @@ h1.text-bold{
 .targetImage{
   z-index: 0;
   opacity: 0.6;
-  height: 60vh !important;
+  height: 70vh !important;
   width: auto;
   right: 0px;
   top: 30px;
