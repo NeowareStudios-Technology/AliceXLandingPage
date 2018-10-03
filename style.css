@@ -1514,19 +1514,10 @@ h1.text-bold{
     .itsThatEasy > div > h1 {
       line-height: 10vh !important;
     }
-    #parrotModel{
-      position: absolute !important;
-      height: 70vh !important;
-      max-height: 70vh !important;
-      left: 20vw !important;
-      width: 100% !important;
-      max-width: 100% !important;
-    }
 
-    #parrotContainer{
-      width: 90% !important;
-      max-width: 100% !important;
-      max-height: 70% !important;
+
+    #parrotModel{
+      width: 50vw !important;
     }
 }
 
@@ -1830,11 +1821,11 @@ h1.text-bold{
       position: absolute ;
       height: 80vh ;
       left: 20vw ;
-      width: 100% ;
+      width: 80vw !important;
     }
 
     #parrotContainer{
-      max-width: 90% ;
+      max-width: 70% !important;
       max-height: 70% ;
     }
 
@@ -1844,7 +1835,7 @@ h1.text-bold{
 /*
   Mobile Stlyes
 */
-@media screen and (max-width: 650px)
+@media screen and (max-width: 700px)
 {
 
     .single-post h1.entry-title {
@@ -1948,6 +1939,14 @@ h1.text-bold{
       width: 100% !important;
       height: 100% !important;
       margin: 0 auto !important;
+      z-index: -1;
+    }
+
+    .itsThatEasy:after{
+      content: "It's that easy";
+      z-index: 2;
+      color: #fff;
+      font-size: 10vh;
     }
 
     .aliceOneLogo{
@@ -1962,8 +1961,8 @@ h1.text-bold{
       top: 55px;
       left: 20vw !important;
       height: 70vh !important;
-      width: 98% !important;
-      max-width: 980% !important;
+      width: 80vw !important;
+      max-width: 80vw !important;
     }
 
     #parrotContainer{
@@ -1974,7 +1973,7 @@ h1.text-bold{
       padding-top: 20px;
       left: 20.5vw !important;
       height: 50vh !important;
-      width: 100vw !important;
+      width: 90vw !important;
     }
 
     #phoneStraightFindTarget{
@@ -2040,14 +2039,14 @@ h1.text-bold{
   left: 6.3vw;
   height: 50vh;
   padding-bottom: 50px;
-  width: 20vw;
+  width: 40vw;
 }
 
 #parrotModel{
   position: relative;
   margin-left: -120px;
   height: 40vh;
-  width: 80vw !important;
+  width: 30vw !important;
 }
 
 /* -----------------------------------
@@ -2368,4 +2367,11 @@ h1.text-bold{
   width: 90vw;
   max-width: 90vw;
   height: 90vh;
+}
+#wrapper {
+    position: relative;
+}
+#wrapper div, #wrapper video {
+    position: absolute;
+    top: 0;
 }
