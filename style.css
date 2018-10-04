@@ -1520,7 +1520,13 @@ h1.text-bold{
     #parrotModel{
       width: 50vw !important;
       height: 50vw !important;
+      left: 40vw !important;
     }
+
+    #phoneAngled{
+      height: 110vh !important;
+    }
+
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -1994,6 +2000,10 @@ h1.text-bold{
       margin: 0 auto !important;
     }
 
+    #phoneAngled{
+      height: 70vh !important;
+    }
+
     #parrotModel{
       position: absolute;
       overflow: visible;
@@ -2051,7 +2061,15 @@ h1.text-bold{
       margin-right: 20vw !important;
       position: absolute;
       left: 1vw !important;
-      height: 98vh !important;
+      height: 90vh !important;
+    }
+
+    .swiper-slide > div > div > #video2 {
+      height: 83vh !important;
+    }
+
+    .swiper-slide > div > div > div > h1 {
+      font-size: 6vh !important;
     }
 
     .bgvideo > source {
