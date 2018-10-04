@@ -1497,7 +1497,8 @@ h1.text-bold{
     }
 
     #phoneStraightScanTarget{
-      background-size: 25vh, 50vh !important;
+      background-size: 35vh, 70vh !important;
+      background-position: 42% 44%, 28% 50% !important;
 
     }
 
@@ -1522,6 +1523,43 @@ h1.text-bold{
     }
 }
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+
+  #phoneAngled{
+    height: 60vh !important;
+  }
+
+  #parrotModel{
+    left: 20vw !important;
+  }
+
+  #phoneStraightScanTarget{
+    left: 20vw !important;
+    background-size: 22vh, 48vh !important;
+    background-position: /*Left*/43% /*Top*/43%, /*L*/37% /*T*/46% !important;
+  }
+
+  #aliceLogoDiv{
+    margin-left: 20vw !important;
+    font-size: 5vh;
+  }
+
+  #startOver >div > a > span {
+    font-size: 3vh !important;
+  }
+
+  #intro > div > p{
+    font-size: 3vh !important;
+  }
+  #intro > div > h1{
+    font-size: 8vh !important;
+  }
+  #intro > div > div{
+    font-size: 3vh !important;
+  }
+}
 
 @media screen and (max-width: 1020px) {
 
@@ -1993,8 +2031,8 @@ h1.text-bold{
       background:
       url('./assets/images/PNGs/yellowScan.png') no-repeat,
       url('./assets/images/PNGs/abstractPainting.png') no-repeat;
-      background-size: 17vh, 30vh !important;
-      background-position: 41% 45%, 25% 50% !important;
+      background-size: 17vh, 35vh !important;
+      background-position: 41% 45%, 20% 50% !important;
     }
 
     #phoneStraightAddExperience{
@@ -2018,6 +2056,16 @@ h1.text-bold{
 
     .bgvideo > source {
       height: 90vh !important;
+    }
+
+    #aliceLogoDiv > div > a > img.aliceOneLogo {
+      height: 40vh !important;
+      margin-left: 6vw !important;
+      width: auto;
+    }
+
+    #aliceLogoDiv > div {
+      font-size: 4vh;
     }
 
 
@@ -2129,7 +2177,7 @@ h1.text-bold{
   background:
   url('./assets/images/PNGs/abstractPainting.png') no-repeat;
   background-size: 65vh;
-  background-position: 45% 50%
+  background-position: 45% 50%;
 }
 
 #phoneStraightScanTarget{
@@ -2137,7 +2185,7 @@ h1.text-bold{
   url('./assets/images/PNGs/yellowScan.png') no-repeat,
   url('./assets/images/PNGs/abstractPainting.png') no-repeat;
   background-size: 31vh, 65vh;
-  background-position: 38% 43%, 10% 50%;
+  background-position: 41% 43%, 17% 49%;
   overflow: hidden;
 }
 
