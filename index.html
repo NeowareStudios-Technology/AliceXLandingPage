@@ -16,6 +16,11 @@
                 <script src="js/html5shiv.js"></script>
                 <script src="js/respond.min.js"></script>
         <![endif]-->
+        <script src="https://preview.babylonjs.com/babylon.js"></script>
+     <!-- Link to the last version of BabylonJS loaders to enable loading filetypes such as .gltf -->
+     <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+     <!-- Link to pep.js to ensure pointer events work consistently in all browsers -->
+     <script src="https://code.jquery.com/pep/0.4.1/pep.js"></script>
     </head>
 
     <body class="page-template-carousel">
@@ -212,7 +217,8 @@
 
                                     <a class="img-thumb">
 
-                                        <img id="phoneStraightAddExperience" src="./assets/images/phoneStraightAddExperience.svg" alt="" >
+                                      <img id="phoneStraightAddExperience" src="./assets/images/phoneStraightAddExperience.svg" alt="" >
+                                      <canvas id="renderCanvas"></canvas>
                                     </a>
                                     <!-- <div class="carousel-item-info">
                                         <div class="carousel-cat-links">
