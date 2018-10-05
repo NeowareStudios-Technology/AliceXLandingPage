@@ -2481,3 +2481,9 @@ h1.text-bold{
     position: absolute;
     top: 0;
 }
+
+#renderCanvas{
+  position: relative;
+  bottom: 300px;
+  left: 30px;
+}
