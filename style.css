@@ -2048,7 +2048,7 @@ h1.text-bold{
       url('./assets/images/PNGs/yellowScan.png') no-repeat,
       url('./assets/images/PNGs/abstractPainting.png') no-repeat;
       background-size: 17vh, 35vh !important;
-      background-position: 41% 45%, 20% 50% !important;
+      background-position: auto 45%, auto 50% !important;
     }
 
     #phoneStraightAddExperience{
