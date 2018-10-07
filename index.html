@@ -16,11 +16,11 @@
                 <script src="js/html5shiv.js"></script>
                 <script src="js/respond.min.js"></script>
         <![endif]-->
-        <script src="https://preview.babylonjs.com/babylon.js"></script>
+        <!-- <script src="https://preview.babylonjs.com/babylon.js"></script> -->
      <!-- Link to the last version of BabylonJS loaders to enable loading filetypes such as .gltf -->
-     <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+     <!-- <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.min.js"></script> -->
      <!-- Link to pep.js to ensure pointer events work consistently in all browsers -->
-     <script src="https://code.jquery.com/pep/0.4.1/pep.js"></script>
+     <!-- <script src="https://code.jquery.com/pep/0.4.1/pep.js"></script> -->
     </head>
 
     <body class="page-template-carousel">
@@ -102,11 +102,11 @@
                 <div class="content-right">
                     <div class="horizontal-slider image-slider-wrapper relative">
                         <div class="swiper-wrapper image-slider slider">
-                            <div id="intro" class="swiper-slide text-slide">
+                            <div class="swiper-slide text-slide">
                                 <div class="carousel-item-text">
                                     <p class="title-description-up">Leap With Alice</p>
-                                    <h1 class="entry-title big-text">Alice One</h1>
-                                    <div class="carousel-content">
+                                    <h1 class="entry-title big-text">Alice ONE</h1>
+                                    <div id="intro" class="carousel-content">
                                         Alice One empowers educators on a global scale, utilizing emerging technologies to reimagine the outdated education system.
                                     </div>
                                 </div>
@@ -202,7 +202,9 @@
                                     </div> -->
 
                                 </div>
-                                <h1 class="text-bold">FIND <br /> TARGET </h1>
+                                <span style="width: 400px;" class="text-bold heading">Choose Target <br>
+                                 <p  class="text-semibold text-description">Pick any real life image around you, this will become your canvas for your experience</p>
+                                </span>
                             </div>
 
                             <div class="swiper-slide">
@@ -210,7 +212,9 @@
                                       <img id="phoneStraightScanTarget" class="phoneStraight" src="./assets/images/phoneStraightScanTarget.svg" alt="" >
 
                                 </div>
-                                <h1 class="text-bold">SCAN <br /> TARGET </h1>
+                                <span style="width: 400px;" class="text-bold heading">Scan Target <br>
+                                 <p  class="text-semibold text-description">Aim the camera at your chosen target, and hit the scan button to start creating.</p>
+                                </span>
                             </div>
 
                             <div class="swiper-slide">
@@ -219,7 +223,7 @@
                                     <a class="img-thumb">
 
                                       <img id="phoneStraightAddExperience" src="./assets/images/phoneStraightAddExperience.svg" alt="" >
-                                      <canvas id="renderCanvas"></canvas>
+                                      <!-- <canvas id="renderCanvas"></canvas> -->
                                     </a>
                                     <!-- <div class="carousel-item-info">
                                         <div class="carousel-cat-links">
@@ -238,7 +242,9 @@
                                     </div> -->
 
                                 </div>
-                                <h1 class="text-bold">ADD <br /> AUGMENTED <br /> REALITY </h1>
+                                <span style="width: 400px;" class="text-bold heading">Add AR <br>
+                                 <p  class="text-semibold text-description">Select any image, video, or 3D model you would like to use for your experience!</p>
+                                </span>
                             </div>
 
                             <div class="swiper-slide">
@@ -305,7 +311,7 @@
 
                             <div id="startOver" class="swiper-slide more-posts-portfolio">
                                 <div class="portfolio-slider-load-more">
-                                  <a href="#intro">
+                                  <a href="#intro" class="startover">
                                     <img src="./assets/images/PNGs/arrow-left.png" style="height: 70% !important; width: auto;" />
                                     <span class="more-portfolio-posts">Start Over</span>
                                   </a>

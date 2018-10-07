@@ -65,6 +65,29 @@
   src: url(./assets/fonts/Atlan-SemiBold.otf);
 }
 
+.heading{
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.text-description{
+  margin-top: 20px;
+  font-size: 20px;
+  width: 250px;
+  line-height: 30px !important;
+}
+
+.text-bold{
+  font-family: Atlan-Bold;
+}
+
+.text-regular{
+  font-family: Atlan-Regular;
+}
+
+.text-semibold{
+  font-family: Atlan-SemiBold;
+}
 
 /* ===================================
     1. Global CSS
@@ -1241,9 +1264,7 @@ li.coco-gallery-item.b-w img {
     max-width: 100%;
 }
 
-h1.text-bold{
-  font-family: Atlan-Bold;
-}
+
 
 .single-post .entry-info div:last-of-type:after {
     display: none;
