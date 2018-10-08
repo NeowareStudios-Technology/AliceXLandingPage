@@ -117,7 +117,4 @@ $(document).ready(function(){
 					scrollTop: $("#intro").offset().top},
 					'slow');
 				})
-
-
-
-  });
+		});
