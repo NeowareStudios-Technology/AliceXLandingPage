@@ -72,6 +72,7 @@
 
 .text-description{
   margin-top: 20px;
+  margin: 0 auto;
   font-size: 20px;
   width: 250px;
   line-height: 30px !important;
