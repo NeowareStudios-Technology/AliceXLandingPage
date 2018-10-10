@@ -68,6 +68,8 @@
 .heading{
   font-size: 50px;
   line-height: 50px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .text-description{
@@ -76,6 +78,7 @@
   font-size: 20px;
   width: 250px;
   line-height: 30px !important;
+  text-align: left;
 }
 
 .text-bold{
@@ -2085,9 +2088,10 @@ li.coco-gallery-item.b-w img {
     }
 
     #phoneStraightAddExperience{
-      width: 95vw !important;
+      width: 100vw !important;
       height: auto !important;
       margin-left: 7vw !important;
+      background-size: 30vw, 80vw !important;
     }
 
     .bgvideo{
@@ -2242,6 +2246,7 @@ li.coco-gallery-item.b-w img {
   -webkit-animation: earth-float 2s infinite; /* Safari 4.0 - 8.0 */
   animation: earth-float 2s infinite;
   transition-timing-function: linear;
+  margin-right: -20vw;
 }
 
 /* -----------------------------------
