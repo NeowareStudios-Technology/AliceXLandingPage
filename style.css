@@ -1516,6 +1516,7 @@ li.coco-gallery-item.b-w img {
 
     .bgvideo{
       left: 10vw !important;
+      height: 150vh !important;
     }
 
     #phoneStraightFindTarget{
@@ -1623,7 +1624,9 @@ li.coco-gallery-item.b-w img {
 }
 
 @media screen and (max-width: 1020px) {
-
+  .aliceOneLogoTop{
+    margin-top:20px;
+  }
     .site-content {
         margin-top: 100px;
     }
@@ -2099,7 +2102,7 @@ li.coco-gallery-item.b-w img {
       margin-right: 20vw !important;
       position: absolute;
       left: 1vw !important;
-      height: 90vh !important;
+      height: 200vh !important;
     }
 
     .swiper-slide > div > div > #video2 {
@@ -2111,7 +2114,7 @@ li.coco-gallery-item.b-w img {
     }
 
     .bgvideo > source {
-      height: 90vh !important;
+      height: 200vh !important;
     }
 
     #aliceLogoDiv > div > a > img.aliceOneLogo {
@@ -2381,7 +2384,7 @@ li.coco-gallery-item.b-w img {
 -------------------------------------- */
 .howToCreate {
   width: 70vw !important;
-  height: 98vh !important;
+  height: 100vh !important;
   min-width: 100%;
   min-height: 100%;
   background: src('./assets/BackgroundVideo.mp4') center center no-repeat;
