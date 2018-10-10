@@ -1515,13 +1515,9 @@ li.coco-gallery-item.b-w img {
     }
 
     #phoneStraightFindTarget{
-      background-size: 50vh !important;
     }
 
     #phoneStraightScanTarget{
-      background-size: 35vh, 70vh !important;
-      background-position: 42% 44%, 28% 50% !important;
-
     }
 
     #phoneStraightAddExperience{
@@ -1563,10 +1559,7 @@ li.coco-gallery-item.b-w img {
     }
 
     #phoneStraightScanTarget{
-      left: 20vw !important;
-      background-size: 22vh, 48vh !important;
-      background-position: /*Left*/43% /*Top*/43%, /*L*/37% /*T*/46% !important;
-    }
+  }
 
     #aliceLogoDiv{
       margin-left: 20vw !important;
@@ -1603,9 +1596,6 @@ li.coco-gallery-item.b-w img {
   }
 
   #phoneStraightScanTarget{
-    left: 20vw !important;
-    background-size: 22vh, 40vh !important;
-    background-position: /*Left*/43% /*Top*/43%, /*L*/37% /*T*/46% !important;
   }
 
   #aliceLogoDiv{
@@ -1913,21 +1903,16 @@ li.coco-gallery-item.b-w img {
     }
 
     #phoneStraightScanTarget{
-      background-size: 20vh, 40vh;
-      background-position: 40% 45%, 20% 50% ;
-      margin-left: 16vw ;
     }
 
     #phoneStraightAddExperience{
-      margin-left: 16vw ;
-      background-position: 10% 45%, 10% 50%;
     }
 
     #parrotModel{
-      position: absolute ;
+      /* position: absolute ;
       height: 80vh ;
       left: 20vw ;
-      width: auto !important;
+      width: auto !important; */
     }
 
     #parrotContainer{
@@ -2090,31 +2075,18 @@ li.coco-gallery-item.b-w img {
       width: 90vw !important;
       height: auto;
       background:
-      url('./assets/images/PNGs/abstractPainting.png') no-repeat;
-      background-size: 30vh !important;
-      background-position: 45% 50%;
     }
 
     #phoneStraightScanTarget{
       width: 95vw !important;
       height: auto !important;
       margin-left: 7vw !important;
-      background:
-      url('./assets/images/PNGs/yellowScan.png') no-repeat,
-      url('./assets/images/PNGs/abstractPainting.png') no-repeat;
-      background-size: 17vh, 35vh !important;
-      background-position: auto 45%, auto 50% !important;
     }
 
     #phoneStraightAddExperience{
       width: 95vw !important;
       height: auto !important;
       margin-left: 7vw !important;
-      background:
-      url('./assets/images/Earth.png') no-repeat,
-      url('./assets/images/PNGs/abstractPainting.png') no-repeat;
-      background-size: 15vh, 25vh !important;
-      background-position: 45% 50%, 30% 60% !important;
     }
 
     .bgvideo{
@@ -2253,19 +2225,9 @@ li.coco-gallery-item.b-w img {
 }
 
 #phoneStraightFindTarget{
-  background:
-  url('./assets/images/PNGs/abstractPainting.png') no-repeat;
-  background-size: 65vh;
-  background-position: 45% 50%;
 }
 
 #phoneStraightScanTarget{
-  background:
-  url('./assets/images/PNGs/yellowScan.png') no-repeat,
-  url('./assets/images/PNGs/abstractPainting.png') no-repeat;
-  background-size: 31vh, 65vh;
-  background-position: 41% 43%, 17% 49%;
-  overflow: hidden;
 }
 
 
