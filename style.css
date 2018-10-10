@@ -2246,7 +2246,7 @@ li.coco-gallery-item.b-w img {
   -webkit-animation: earth-float 2s infinite; /* Safari 4.0 - 8.0 */
   animation: earth-float 2s infinite;
   transition-timing-function: linear;
-  margin-right: -20vw;
+  margin-right: -10vw;
 }
 
 /* -----------------------------------
