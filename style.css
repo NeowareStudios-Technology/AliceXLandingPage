@@ -1944,6 +1944,9 @@ li.coco-gallery-item.b-w img {
 */
 @media screen and (max-width: 700px)
 {
+    #howToCreate{
+      margin-bottom: -30vh !important;
+    }
 
     .single-post h1.entry-title {
         font-size: 34px;
@@ -2509,7 +2512,7 @@ li.coco-gallery-item.b-w img {
   width: auto;
   height: auto;
 } */
-
+/*
 html,
 body,
 div.video-container,
@@ -2551,4 +2554,8 @@ video{
   height: calc(100% - 7px);
   width: 100%;
   padding: 0;
+} */
+
+.heading-description{
+  font-size: 3vh;
 }
