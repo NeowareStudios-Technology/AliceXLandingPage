@@ -2031,7 +2031,7 @@ li.coco-gallery-item.b-w img {
 
     .howToCreate{
       width: 100% !important;
-      height: 100% !important;
+      height: 200% !important;
       margin: 0 auto !important;
     }
 
@@ -2395,10 +2395,9 @@ li.coco-gallery-item.b-w img {
   height: 100vh !important;
   min-width: 100%;
   min-height: 100%;
-  background: src('./assets/BackgroundVideo.mp4') center center no-repeat;
-  background-size: cover;
   font-family: 'Atlan-Bold';
   margin: 0 auto;
+
 }
 
 .howToCreate > div {
@@ -2487,4 +2486,64 @@ li.coco-gallery-item.b-w img {
   position: relative;
   bottom: 300px;
   left: 30px;
+}
+
+/* Making vid 'fullscreen'
+.video-container {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 200%;
+  height: 200%;
+  overflow: hidden;
+}
+ .video-container video {
+
+  min-width: 200%;
+  min-height: 200%;
+  width: auto;
+  height: auto;
+} */
+
+html,
+body,
+div.video-container,
+video
+{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+video{
+  height: 100%;
+  width: 100%;
+  object-fit : cover;
+}
+
+.video-container {
+  overflow: hidden;
+  background: #000;
+  display: block !important;
+  position: relative;
+}
+
+.video-container video {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+}
+
+.title-container {
+  z-index: 10;
+  color: #FFF;
+  position: absolute;
+}
+
+.adjustedHeight {
+  height: calc(100% - 77px);
+  width: 100%;
+  padding: 0;
 }
