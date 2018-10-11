@@ -78,10 +78,10 @@
   margin-top: 30px;
   margin: 0 auto;
   font-size: 4vh !important;
-  width: 250px;
+  width: 280px;
   line-height: 30px !important;
   text-align: left;
-  margin-left: 5px !important;
+  margin-left: 6vw !important;
 }
 
 .text-bold{
@@ -1532,7 +1532,7 @@ li.coco-gallery-item.b-w img {
     #phoneStraightAddExperience{
       background-size: 18vh, 40vh !important;
       background-position: 40% 45%, 10% 50% !important;
-      margin-left: 18vw !important;
+      margin-left: 14vw !important;
     }
 
     .howToCreate > div > h1 {
@@ -2095,13 +2095,13 @@ li.coco-gallery-item.b-w img {
     #phoneStraightFindTarget{
       width: 90vw !important;
       height: auto;
-      background:
+      margin-left: 0vw !important;
     }
 
     #phoneStraightScanTarget{
       width: 95vw !important;
       height: auto !important;
-      margin-left: 7vw !important;
+      margin-left: 2vw !important;
     }
 
     #phoneStraightAddExperience{
@@ -2143,8 +2143,23 @@ li.coco-gallery-item.b-w img {
       font-size: 4vh;
     }
 
+    #itsThatEasy{
+      margin-top: 35vh !important;
+      margin-bottom: -35vh !important;
+    }
+
     .howToCreate{
       margin-bottom: -30vh !important;
+    }
+
+    .heading{
+      text-align: center !important;
+      margin-left: -14vw !important;
+    }
+
+    .text-description{
+      text-align: center !important;
+      margin-left: 7vw !important;
     }
 
 }
@@ -2268,7 +2283,9 @@ li.coco-gallery-item.b-w img {
   -webkit-animation: earth-float 2s infinite; /* Safari 4.0 - 8.0 */
   animation: earth-float 2s infinite;
   transition-timing-function: linear;
-  margin-right: -10vw;
+  margin-right: -15vw;
+  margin-left: -10vw;
+  margin-top: 5vh;
 }
 
 /* -----------------------------------
@@ -2573,7 +2590,7 @@ video{
 }
 
 #itsThatEasy{
-  margin: 0 auto;
+  margin-top: 55vh !important;
 }
 
 #startOver {
