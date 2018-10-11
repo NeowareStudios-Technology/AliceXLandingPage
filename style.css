@@ -2559,3 +2559,7 @@ video{
 .heading-description{
   font-size: 3vh;
 }
+
+#howToCreate{
+  margin-top: 50vh !important;
+}
