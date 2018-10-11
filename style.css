@@ -1516,7 +1516,8 @@ li.coco-gallery-item.b-w img {
 
     .bgvideo{
       left: 10vw !important;
-      height: 150vh !important;
+      height: 100vh !important;
+      margin: 0 auto;
     }
 
     #phoneStraightFindTarget{
@@ -2102,7 +2103,7 @@ li.coco-gallery-item.b-w img {
       margin-right: 20vw !important;
       position: absolute;
       left: 1vw !important;
-      height: 200vh !important;
+
     }
 
     .swiper-slide > div > div > #video2 {
@@ -2114,7 +2115,7 @@ li.coco-gallery-item.b-w img {
     }
 
     .bgvideo > source {
-      height: 200vh !important;
+      height: 100vh !important;
     }
 
     #aliceLogoDiv > div > a > img.aliceOneLogo {
