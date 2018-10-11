@@ -1932,7 +1932,7 @@ li.coco-gallery-item.b-w img {
     }
 
     .heading{
-      margin-left: 30vw !important;
+      margin-left: 5vw !important;
     }
 
 
@@ -2543,7 +2543,7 @@ video{
 }
 
 .adjustedHeight {
-  height: calc(100% - 77px);
+  height: calc(100% - 7px);
   width: 100%;
   padding: 0;
 }
