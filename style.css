@@ -69,16 +69,19 @@
   font-size: 50px;
   line-height: 50px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
+  left: 20vw !important;
+  margin-left: 5vw !important;
 }
 
 .text-description{
-  margin-top: 20px;
+  margin-top: 30px;
   margin: 0 auto;
   font-size: 20px;
   width: 250px;
   line-height: 30px !important;
   text-align: left;
+  margin-left: 5px !important;
 }
 
 .text-bold{
@@ -1926,6 +1929,10 @@ li.coco-gallery-item.b-w img {
     #parrotContainer{
       max-width: 70% !important;
       max-height: 70% ;
+    }
+
+    .heading{
+      margin-left: 30vw !important;
     }
 
 
