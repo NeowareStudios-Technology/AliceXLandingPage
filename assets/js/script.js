@@ -2,8 +2,8 @@
 	LWA alice one landing page script
 */
 
-var vid1 = document.getElementById("video1");
-vid1.playbackRate = 2.0;
+// var vid1 = document.getElementById("video1");
+// vid1.playbackRate = 2.0;
 
 // function colorLog(message, color, fontSize, bgColor) {
 //     color = color || "black";
@@ -110,11 +110,9 @@ var styles = "text-shadow: -1px -1px hsl(0,100%,50%), 1px 1px hsl(5.4, 100%, 50%
 // 	        });
 
 $(document).ready(function(){
-
-
     $(".startover").click(function(){
         $("html, body").animate({
-					scrollTop: $("#intro").offset().top},
-					'slow');
-				})
+					scrollTop: $("#intro").offset().top
+        },'slow');
 		});
+});

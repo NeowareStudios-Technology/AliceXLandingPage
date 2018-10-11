@@ -160,7 +160,7 @@ body p {
 .header-logo {
     position: absolute;
     top: 35px;
-    left: 10px;
+    left: 30px;
 }
 
 .header-logo img {
@@ -1643,6 +1643,7 @@ li.coco-gallery-item.b-w img {
     .header-logo {
         top: 0;
         transition: transform .3s linear;
+        margin: 0 auto;
     }
 
     .open .header-logo {
