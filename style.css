@@ -1949,6 +1949,9 @@ li.coco-gallery-item.b-w img {
 */
 @media screen and (max-width: 700px)
 {
+    #parrotSection{
+      margin-bottom: -40vh !important;
+    }
     #howToCreate{
       margin-bottom: -30vh !important;
     }
