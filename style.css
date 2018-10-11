@@ -1596,9 +1596,7 @@ li.coco-gallery-item.b-w img {
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 /* Styles */
 
-#startOver {
-  display: block !important;
-}
+
   #phoneAngled{
     height: 60vh !important;
   }
@@ -2133,7 +2131,7 @@ li.coco-gallery-item.b-w img {
 
     #aliceLogoDiv > div > a > img.aliceOneLogo {
       height: 40vh !important;
-      margin: 0 auto;
+      margin: 0 auto !important;
       width: auto !important;
       /* min-width: 60vw !important; */
       margin-top: -40vh !important;
@@ -2594,5 +2592,5 @@ video{
 }
 
 #startOver {
-  display: none;
+  display: none !important;
 }
