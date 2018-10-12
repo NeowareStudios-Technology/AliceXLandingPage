@@ -2598,3 +2598,167 @@ video{
 div {
   padding-bottom: 0 !important;
 }
+
+/*
+  LWA v2.0 Updates:
+   - popup added
+   - campaign live
+*/
+
+.btn-grow {
+  display: inline-block;
+  color: #14f;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.btn-grow:hover, .btn-grow:focus, .btn-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.investModal {
+  transition-property: opacity 1s, margin-left 1s;
+  transition-delay: 0.2s;
+  display: none;
+  height: auto;
+  margin-left: -37.5%;
+  min-height: 300px;
+  max-height: 100%;
+  min-width: 50%;
+  max-width: 100%;
+  background: #FFF;
+  z-index: 9999;
+}
+
+.popupContainer{
+  position: fixed;
+  left:50%;
+  top: 20%;
+  z-index: 9999;
+  width: auto;
+  height: auto;
+  min-height: 300px;
+  max-height: 100%;
+  min-width: 100px;
+  max-width: 700px;
+  padding: 40px 20px;
+}
+
+.popupContainer .wrapper{
+  position: relative;
+  left: -50%;
+  top: -20%;
+  /*popup-styles*/
+  background-color:#fff;
+  padding: 40px 20px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px) {
+/* Styles */
+  .popupContainer{
+    position: fixed;
+    left: 20%;
+    top: 1%;
+    z-index: 9999;
+    width: auto;
+    height: auto;
+    min-height: 300px;
+    max-height: 100%;
+    min-width: 100px;
+    max-width: 350px;
+    padding: 40px 10px !important;
+  }
+
+  .investButton{
+    margin-left: auto;
+  }
+
+  .popupContainer .wrapper{
+    position: relative;
+    left: -20%;
+    top: -1%;
+    /* popup-styles */
+    background-color:#fff;
+    padding: 30px 10px !important;
+    padding-right: 0 !important;
+    text-align: center !important;
+  }
+}
+
+.popupContainer{
+  width: 100%;
+}
+
+
+.popup-text{
+  font-size: 24px;
+  font-weight: 800;
+  width: auto;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.fontCenter{
+  color: white;
+  font-size: 36px;
+  position: absolute;
+  z-index: 999999999;
+  margin: 0 auto;
+  margin-top: -45px !important;
+}
+
+.investClose:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.investButton:hover{
+  cursor: pointer;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+
+a.investButton:hover + a.popup-text{
+  opacity: 0.5;
+}
+
+/* Force only popup <hr> tag to have these stylings */
+#popup-hr{
+  border: 2px solid black !important;
+}
+
+
+div.overlay {
+    position: absolute;
+    z-index: 900;
+    display: none;
+    width: 110%;
+    height: 110%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    opacity: 0.5;
+    filter: alpha(opacity = 50); /* required for opacity to work in IE */
+}
+
+.investContainer{
+  border-radius: 20px;
+  width: auto !important;
+}
+/*
+  END 2.0 - SE live -rf
+*/
+
+.shadow {
+  -moz-box-shadow:    2px 3px 10px 2px #ccc;
+  -webkit-box-shadow: 2px 3px 10px 2px #ccc;
+  box-shadow:         2px 3px 10px 2px #ccc;
+}

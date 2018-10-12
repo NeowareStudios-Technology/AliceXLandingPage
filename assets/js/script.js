@@ -109,7 +109,25 @@ var styles = "text-shadow: -1px -1px hsl(0,100%,50%), 1px 1px hsl(5.4, 100%, 50%
 // 	            engine.resize();
 // 	        });
 
-$(document).ready(function(){
+$(document).ready( function(){
+
+	var $investClose = $(".investClose");
+	var $investPopup = $("#investPopup");
+	var $overlay = $(".overlay");
+
+	// Onload, trigger popup
+	$investPopup.show();
+	$overlay.show();
+
+	/* -------------------------
+		MUST click close button to close popup.
+	 ------------------------- */
+	$investClose.click(function() {
+			$investPopup.hide();
+			$overlay.hide();
+	});
+
+
     $(".startover").click(function(){
         $("html, body").animate({
 					scrollTop: $("#intro").offset().top
