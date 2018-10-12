@@ -72,6 +72,15 @@
   text-align: left;
   left: 20vw !important;
   margin-left: 5vw !important;
+  font-family: 'Atlan-Bold' !important;
+}
+
+p {
+  font-family: 'Atlan-Regular' !important;
+}
+
+h1, h2, h3 {
+  font-family: 'Atlan-Bold' !important;
 }
 
 .text-description{
@@ -82,6 +91,7 @@
   line-height: 30px !important;
   text-align: left;
   margin-left: 6vw !important;
+  font-family: 'Atlan-Regular' !important;
 }
 
 .text-bold{
@@ -2761,4 +2771,8 @@ div.overlay {
   -moz-box-shadow:    2px 3px 10px 2px #ccc;
   -webkit-box-shadow: 2px 3px 10px 2px #ccc;
   box-shadow:         2px 3px 10px 2px #ccc;
+}
+
+p {
+  font-family: 'Atlan-Regular' !important;
 }
