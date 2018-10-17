@@ -64,6 +64,7 @@
 //     console.log("%c " + message, "color:" + color + "; font-size:" + fontSize + ";" + "; background: " + bgColor + ";");
 // }
 
+
 //
 // window.onload = function(){
 // 	console.log("%cLeap %s", styles, "With Alice");
@@ -111,7 +112,7 @@ $(document).ready( function(){
 	var $investClose = $(".investClose");
 	var $investPopup = $("#investPopup");
 	var $overlay = $(".overlay");
-
+  var $startover = $(".startover");
 	// Onload, trigger popup
 	$investPopup.show();
 	$overlay.show();
@@ -124,10 +125,9 @@ $(document).ready( function(){
 			$overlay.hide();
 	});
 
-
-    $(".startover").click(function(){
-        $("html, body").animate({
-					scrollTop: $("#intro").offset().top
-        },'slow');
-		});
+    // $startover.click(function(){
+    //     $("html, body").animate({
+		// 			scrollTop: $("#intro").offset().top
+    //     },'slow');
+		// });
 });
